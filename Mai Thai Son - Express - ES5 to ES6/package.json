@@ -1,0 +1,14 @@
+{
+    "name": "convert-es5-to-es6",
+    "version": "1.0.0",
+    "description": "convert es5 syntax to es6 syntax",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "mai thai son",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
