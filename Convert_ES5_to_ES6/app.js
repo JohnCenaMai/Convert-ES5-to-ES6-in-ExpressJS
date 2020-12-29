@@ -7,17 +7,8 @@ import path from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 
-/*const createError = require('http-errors');
-const express = require('express');
-const path = require('path');
-const cookieParser = require('cookie-parser');
-const logger = require('morgan');*/
-
-//const indexRouter = require('./routes/index');
-//const usersRouter = require('./routes/users');
-
 const app = express();
-let __dirname = "";
+let __dirname = '';
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -49,4 +40,3 @@ app.use((err, req, res, next) => {
 });
 
 export default app;
-//module.exports = app;
